@@ -1,0 +1,37 @@
+ {
+    "template": {
+      "src": "file:///Users/theoricherol/Desktop/Nexrender/assets/testRender.aep",
+      "composition": "main"
+    },
+    "assets": [
+      {
+        "src": "file:///Users/theoricherol/Desktop/Nexrender/assets/p12.jpg",
+        "type": "image",
+        "layerName": "image"
+      },
+      {
+        "type": "data",
+        "layerName": "texte",
+        "property": "sourceText",
+        "value": "Olivier"
+      }
+    ],
+    "actions": {
+      "postrender": [
+        {
+          "module": "@nexrender/action-encode",
+          "preset": "mp4",
+          "output": "/Users/theoricherol/Desktop/Nexrender/tempFiles/encoded.mp4",
+          "params": {
+            "-vcodec": "libx264",
+            "-r": 25
+          }
+        },
+        {
+          "module": "@nexrender/action-copy",
+          "input": "encoded.mp4",
+          "output": "/Users/theoricherol/Desktop/Nexrender/Render/result.mp4"
+        }
+      ]
+    }
+  }

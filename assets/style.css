@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #140d1f;
+  color: white;
+}
+
+h1, h2 {
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+#global-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#global-page #title {
+  margin: 10vh 0 3vh 10vh;
+}
+#global-page h2 {
+  margin: 0 0 0 10vh;
+}
+#global-page .dash {
+  width: 40%;
+  height: 5px;
+  background-color: #006fb9;
+}
+#global-page form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+#global-page form label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 2vh;
+}
+#global-page form label input {
+  margin-top: 1vh;
+  color: white;
+  background-color: transparent;
+  border: 2px #006fb9;
+  border-style: none none solid none;
+}
+#global-page form label input:focus {
+  border: 2px white;
+  outline: none;
+}
+#global-page video {
+  align-self: center;
+  height: 50vh;
+  width: auto;
+  margin-top: 5vh;
+}
+#global-page a {
+  margin-top: 3vh;
+  align-self: center;
+  padding: 1vh;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+}
+#global-page a:hover {
+  color: #006fb9;
+  border: 1px solid #006fb9;
+}
+
+/*# sourceMappingURL=style.css.map */

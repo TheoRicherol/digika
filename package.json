@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@nexrender/core": "^1.8.16",
+    "fs": "^0.0.1-security",
+    "nexrender": "^1.0.1"
+  },
+  "name": "nexrender",
+  "version": "1.0.0",
+  "main": "assets/js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
